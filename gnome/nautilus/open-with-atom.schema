@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/type</key>
+      <applyto>/apps/nautilus-actions/configurations/cc8404e9-77c3-419b-b758-8ccaa678c2f2/type</applyto>
+      <type>string</type>
+      <default>Action</default>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/iversion</key>
+      <applyto>/apps/nautilus-actions/configurations/cc8404e9-77c3-419b-b758-8ccaa678c2f2/iversion</applyto>
+      <type>int</type>
+      <default>3</default>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/items</key>
+      <applyto>/apps/nautilus-actions/configurations/cc8404e9-77c3-419b-b758-8ccaa678c2f2/items</applyto>
+      <type>list</type>
+      <list_type>string</list_type>
+      <default>[profile-zero]</default>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/target-location</key>
+      <applyto>/apps/nautilus-actions/configurations/cc8404e9-77c3-419b-b758-8ccaa678c2f2/target-location</applyto>
+      <type>bool</type>
+      <default>true</default>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/icon</key>
+      <applyto>/apps/nautilus-actions/configurations/cc8404e9-77c3-419b-b758-8ccaa678c2f2/icon</applyto>
+      <type>string</type>
+      <locale name="C">
+        <default>atom</default>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/tooltip</key>
+      <applyto>/apps/nautilus-actions/configurations/cc8404e9-77c3-419b-b758-8ccaa678c2f2/tooltip</applyto>
+      <type>string</type>
+      <locale name="C">
+        <default>Opens current file or folder in Atom</default>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/toolbar-label</key>
+      <applyto>/apps/nautilus-actions/configurations/cc8404e9-77c3-419b-b758-8ccaa678c2f2/toolbar-label</applyto>
+      <type>string</type>
+      <locale name="C">
+        <default>Open With Atom Editor</default>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/label</key>
+      <applyto>/apps/nautilus-actions/configurations/cc8404e9-77c3-419b-b758-8ccaa678c2f2/label</applyto>
+      <type>string</type>
+      <locale name="C">
+        <default>Open With Atom Editor</default>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/selection-count</key>
+      <applyto>/apps/nautilus-actions/configurations/cc8404e9-77c3-419b-b758-8ccaa678c2f2/profile-zero/selection-count</applyto>
+      <type>string</type>
+      <default>=1</default>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/parameters</key>
+      <applyto>/apps/nautilus-actions/configurations/cc8404e9-77c3-419b-b758-8ccaa678c2f2/profile-zero/parameters</applyto>
+      <type>string</type>
+      <default>%F</default>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/path</key>
+      <applyto>/apps/nautilus-actions/configurations/cc8404e9-77c3-419b-b758-8ccaa678c2f2/profile-zero/path</applyto>
+      <type>string</type>
+      <default>atom</default>
+    </schema>
+    <schema>
+      <key>/schemas/apps/nautilus-actions/configurations/desc-name</key>
+      <applyto>/apps/nautilus-actions/configurations/cc8404e9-77c3-419b-b758-8ccaa678c2f2/profile-zero/desc-name</applyto>
+      <type>string</type>
+      <locale name="C">
+        <default>Default profile</default>
+      </locale>
+    </schema>
+  </schemalist>
+</gconfschemafile>
