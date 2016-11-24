@@ -1,5 +1,5 @@
 #! /usr/bin/bash
 
-sh ./install-base.sh && \
-  sh ./install-typescript.sh && \
-  sh ./install-linux.sh
+bash ./install-common.sh && \
+  bash ./install-javascript.sh && \
+  bash ./install-typescript.sh
