@@ -37,7 +37,7 @@ grub-install --target=i386-pc /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
 
 # 7. Change time region, Change Hardware Clock to use UTC
-ln -s /usr/share/zoneinfo/Poland/Warsaw /etc/localtime
+ln -s /usr/share/zoneinfo/Europe/Warsaw /etc/localtime
 hwclock --systohc
 
 # 8. Generate locale, and set it
