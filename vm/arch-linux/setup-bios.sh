@@ -41,6 +41,7 @@ ln -s /usr/share/zoneinfo/Europe/Warsaw /etc/localtime
 hwclock --systohc
 
 # 8. Generate locale, and set it
+echo "en_US.UTF-8 UTF-8" > /etc/locale.gen
 locale-gen
 echo "LANG=en_US.UTF-8" > /etc/locale.conf
 
