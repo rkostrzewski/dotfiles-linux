@@ -21,6 +21,7 @@ lsblk -f
 mount /dev/sda3 /mnt
 mkdir /mnt/boot
 mount /dev/sda1 /mnt/boot
+swapon /dev/sda2
 
 # 3. Install base and base development packages
 pacman -Syy
